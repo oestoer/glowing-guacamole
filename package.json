@@ -1,0 +1,28 @@
+{
+  "name": "glowing-guacamole",
+  "version": "0.0.1",
+  "description": "Rapsberry Pi temperature and humidity display on a 16x2 LCD screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oestoer/glowing-guacamole.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "lcd",
+    "temperature",
+    "sensor"
+  ],
+  "author": "Ádám Östör",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oestoer/glowing-guacamole/issues"
+  },
+  "dependencies": {
+    "node-dht-sensor": "0.0.11"
+  }
+}
